@@ -531,15 +531,25 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     background: var(--text-color);
-    border-radius: 50%;
+    border-radius: 40%;
+}
+
+.portfolio-layer a:hover{
+ background:black;
+
 }
 
 .portfolio-layer a i {
     font-size: 2rem;
     color: var(--snd-bf-color);
+}
+
+
+.portfolio-layer a i:hover{
+    color:#ccc;
 }
 
 .contact h2 {
